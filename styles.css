@@ -77,3 +77,62 @@ header .logo-text {
   margin: 0 20px;
   text-align: center;
 }
+
+.qoute {
+  background-color: #e5e7eb;
+  padding: 50px;
+  margin-top: 50px;
+}
+
+.qoute blockquote {
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+}
+
+.qoute blockquote + h1 {
+  text-align: right;
+}
+.con {
+  padding: 50px;
+}
+.call-to-action {
+  background-color: #3883f6;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+}
+.call {
+  padding: 20px;
+}
+
+.call h1 {
+  color: #fff;
+  font-size: 36px;
+  margin-bottom: 0;
+}
+.call p {
+  color: #fff;
+  font-size: 18px;
+  margin-top: 0;
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn button {
+  background-color: #3883f6;
+  font-size: 1.5rem;
+  color: #fff;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 10px 40px;
+}
+
+footer {
+  background-color: #1f2937;
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+  font-size: 8px;
+}
